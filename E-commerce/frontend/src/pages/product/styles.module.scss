@@ -1,0 +1,211 @@
+
+.HeaderProduct{
+    width: 100vw;
+    height: 50vh;
+    // margin-top: -10px;
+
+    // background: rgb(238,255,165);
+    // background: linear-gradient(273deg, rgba(238,255,165,0.6306897759103641) 0%, rgba(255,216,244,0.6558998599439776) 100%);
+
+    .HeaderContainerBack{
+        width: 40px;
+        height: 40px;
+        background: #fff;
+
+        border-radius: 50%;
+
+        position: absolute;
+
+        margin: 10px;
+        z-index: 2;
+        // padding: 10px;
+        box-shadow: 1px 1px 8px 4px rgba(51, 51, 51, 0.137);
+        display: grid;
+        place-items: center;
+
+        >div{
+            width: 15px;
+            height: 20px;
+            >svg{
+                fill: #006cff;
+                width: 20px;
+                height: 20px;
+
+            // fill: rgb(31, 31, 31);
+        }}
+
+    }
+
+    .HeaderImageContainer{
+        width: 100%;
+        height: 100%;
+        position: relative;
+
+        .ContainerImg{
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            position: absolute;
+        }
+
+        .ContainerImgSlider{
+            display: flex;
+
+            list-style-type: none;
+            justify-content: center;
+
+            position: absolute;
+            bottom: 0;
+
+            width: 100%;
+
+            gap: 16px;
+
+            li{
+                width: 10px;
+                height: 50px;
+
+                // border: 1px solid #333;
+
+                border-radius: 8px;
+
+                svg{
+                    width: 10px;
+                    height: 10px;
+                    // border-radius: 8px;
+
+                }
+            }
+        }
+    }
+}
+
+.ContentProduct{
+
+    box-shadow: 1px 1px 8px 4px rgba(51, 51, 51, 0.137);
+    border-top: 1px solid rgba(39, 39, 39, 0.15);
+z-index: 3;
+    width: 100vw;
+    height: 50vh;
+    background: #fff;
+    border-radius: 30px;
+
+    margin-top: -20px;
+
+    padding: 20px;
+
+    .TitlePRice{
+        display: flex;
+        align-items: center;
+        // justify-content: space-between;
+
+        border-bottom: 1px solid rgba(177, 177, 177, 0.438);
+
+        padding: 0 0 15px 0;
+
+        h1{
+            width: 60%;
+            font: 400 1.1rem Outfit;
+            height: 25px; // Limite maximo do texto
+            // white-space: nowrap; // Removendo quebra de linha
+            overflow: hidden; // Removendo a barra de rolagem
+            text-overflow: ellipsis;
+        }
+        h6{
+            width: 40%;
+            font: 500 1.1rem Outfit;
+            text-align: end;
+        }
+    }
+
+    .size{
+        display: flex;
+        align-items: center;
+
+        margin: 20px 0 20px 0;
+        
+        p{
+            padding-right: 10px;
+        }
+
+        ul{
+            list-style-type: none;
+            display: flex;
+
+            gap: 10px;
+            li{
+                width: 30px;
+                height: 30px;
+
+                display: grid;
+                place-items: center;
+                
+                background: rgba(197, 214, 255, 0.356);
+
+                border-radius: 50%;
+
+                font: 500 .8rem Outfit;
+            }
+        }
+    }
+
+    .Description{
+        h1{
+            font: 500 1.1rem Outfit;
+        }
+        p{
+            font: 400 1rem Outfit;
+        }
+        height: 100px; // Limite maximo do texto
+        // white-space: nowrap; // Removendo quebra de linha
+        overflow: hidden; // Removendo a barra de rolagem
+        text-overflow: ellipsis;
+    }
+
+    .Button{
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+
+        padding-top: 20px;
+
+        position: relative;
+        
+        .Button1{
+            width: 60px;
+            position: relative;
+        }
+
+        .Button2{
+            button{
+                width: 250px;
+                height: 40px;
+                border-radius: 30px;
+                border: 0;
+                outline: none;
+
+                background: rgb(80,171,255);
+                background: linear-gradient(270deg, rgba(80,171,255,0.9724264705882353) 57%, rgba(0,108,255,0.76234243697479) 100%);
+                
+                color: #fff;
+
+                font: 500 1.1rem outfit;
+
+                transition: all ease .3s;
+
+                &:hover{
+                    background: #006cff;
+                }
+                // width: 100%;
+            }
+        }
+    }
+}
+
+.CarShopContainer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}

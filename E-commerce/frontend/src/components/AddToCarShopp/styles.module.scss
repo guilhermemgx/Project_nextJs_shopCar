@@ -1,0 +1,28 @@
+/* The component style is inserted here. */
+.buttonSave{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    z-index: 99;
+
+    margin-bottom: -10px;
+    margin-right: 10px;
+
+    border: 0;
+    border-radius: 50%;
+
+    background: #fff;
+    box-shadow: 1px 1px 8px 4px rgba(51, 51, 51, 0.137);
+
+    >img{
+        width: 20px;
+        height: 20px;
+    }
+
+    &:hover{
+            // fill: #006cff;
+            background: #006cff;
+    }
+}

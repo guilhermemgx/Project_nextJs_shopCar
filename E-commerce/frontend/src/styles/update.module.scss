@@ -1,0 +1,30 @@
+.Home{
+    
+    .ContainerWrapper{
+        // height: 80px;
+        width: 85vw;
+        border-bottom: 1px solid #333;
+        padding: 10px;
+        >a{
+            display: flex;
+            gap: 16px;
+
+            h1{
+            font: 500 1rem Outfit;
+            // font: 200 1rem ;
+            }
+        }
+    }
+}
+
+.ContainerImage{
+    img{
+        width: 100px;
+
+    }
+}
+
+.Formulario{
+    display: flex;
+
+}

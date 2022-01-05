@@ -1,0 +1,17 @@
+/* The component style is inserted here. */
+.ContainerButton{
+    border: 1px solid rgba(167, 167, 167, 0.315);
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    margin: 10px 0;
+
+    border-radius: 5px;
+    >h1{
+        // width: 100px !important;
+
+        font: 200 .75rem outfit;
+
+        text-align: center;
+    }
+}

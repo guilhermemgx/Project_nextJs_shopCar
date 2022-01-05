@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InformacaoHabilitacao>
+  <Serial>GEU0-LKH4-9J5Y</Serial>
+  <Creditos>3</Creditos>
+  <Sistema>Gerencial</Sistema>
+  <Versao>G6</Versao>
+  <VersaoPafEcf>2</VersaoPafEcf>
+  <DataValidacao>2021-05-05T11:53:23.170450</DataValidacao>
+  <Matriz>
+    <Cnpj>05.947.123/0001-58</Cnpj>
+    <InscricaoEstadual>103669612</InscricaoEstadual>
+    <RegistroMunicipal>99999</RegistroMunicipal>
+    <Cnae>47.21-1-04</Cnae>
+    <Email>andre@bugsolution.com.br</Email>
+    <RazaoSocial>DISTRIBUIDORA DE DOCES SKOLAR LTDA </RazaoSocial>
+    <Telefone>6136318121</Telefone>
+    <Endereco>
+      <Logradouro>Quadra QC 3</Logradouro>
+      <Numero>SN</Numero>
+      <Cep>73751-250</Cep>
+      <Complemento>MC LOTE 29</Complemento>
+      <Bairro>Setor Norte</Bairro>
+      <CodigoIbgeMunicipio>5217609</CodigoIbgeMunicipio>
+    </Endereco>
+    <RamoAtividade>Comercio</RamoAtividade>
+    <Perfil>
+      <Uf>GO</Uf>
+      <CodigoPerfil>87</CodigoPerfil>
+    </Perfil>
+    <AssinaturaSat>AST8OumP60AqvUpWteYTS5ZCtJLd4ARXpMqnM+nGRdwGcyPukAGenafaouo4rut7eTkMSbpyZ4TyNogxxmZo8AlzrdW9zEzaFx6MaYxdVt92IUT1bgAG4Yn/ysGx4tJ/Y3uW7K/O3ayFVq5nVIiyPNl9K0vQycma68h6ggRrP61l+GJ562yocBR4mLPHgc2ZkwCNcI8Fw/9L7MhYQYGYXnNUvOpVIqcS4eUXQpXuhuWO7s6rU6swuqedgvs05Y+yFEOV2qaqYh8TSukrallK3fwuEBPNQt+Q05RPF2xdDFBe6x6wUqpT1WpKb5XLIF3kgNb4wrktOlBq3QMy98TKtg==</AssinaturaSat>
+  </Matriz>
+  <HabilitadoMEI>false</HabilitadoMEI>
+  <Locacao>false</Locacao>
+</InformacaoHabilitacao>
+<!--g9i/e4SPjzNrNvfTERdqUJLu4qpah94NgSYPCJdFhleIdkX+2vqtvUUJODfZcWhjgaloDU8daxHvv1JSL/WH3pDILLO3Eq+qu9x3dDpq4HbJF9PuLXqXNdrBR6rs/4ukW0smq2eADuzhlgtWZD6EqH+Vl4aJGIicsZD9i8mugVU=-->

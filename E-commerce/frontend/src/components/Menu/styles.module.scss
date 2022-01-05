@@ -1,0 +1,45 @@
+/* The component style is inserted here. */
+.MenuPrime{
+    width: 15vw;
+    
+    .TittleMenu{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+            border-bottom: 1px solid #333;
+            padding: 10px 0 10px 0;
+
+            margin-bottom: 60px;
+
+        >h1{
+            font: 200 1rem outfit;
+        }
+    }
+
+    .Opcoes{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        >a{
+            >li{
+                // border: 1px solid #333;
+                border-bottom: 1px solid rgba(133, 133, 133, 0.212);
+                // border-top: 1px solid #333;
+                padding: 10px;
+                transition: all ease .3s;
+    
+                &:hover{
+                    box-shadow: 5px 1px 5px 3px rgba(136, 136, 136, 0.322);
+                    // font-weight: 600;
+                transition: all ease .3s;
+    
+                }
+    
+            }
+        }
+        // align-items: center;
+        // justify-content: left;
+    }
+}
